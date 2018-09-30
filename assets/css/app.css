@@ -12,3 +12,11 @@
   background-size: cover;
   background-position: center;
 }
+
+h1 {
+  @apply .text-xl .font-bold .mb-2 .mt-2;
+}
+
+.blogpost {
+  @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .w-4/5;
+}
