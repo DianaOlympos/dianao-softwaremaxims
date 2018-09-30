@@ -38,7 +38,8 @@ defmodule Softwaremaxims.Mixfile do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      {:jason, "~> 1.1"}
+      {:jason, "~> 1.1"},
+      {:earmark, "~> 1.2"}
     ]
   end
 end

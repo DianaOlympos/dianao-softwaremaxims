@@ -12,14 +12,16 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container w-9/10 mx-auto">
       <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right font-sans">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
+        <nav class="flex items-center justify-between flex-wrap bg-red-darker p-6">
+          <div class="logo" title="SNAFU image"></div>
+          <ul class="list-reset flex">
+            <li class="mr-6">
+              <a class="block mt-4 text-pink-lighter hover:text-white mr-4 no-underline" href="<%= page_path(@conn, :index) %>">Software Maxims</a>
+            </li>
           </ul>
         </nav>
-        <div class="logo" title="SNAFU image"></div>
       </header>
 
       <main role="main">
