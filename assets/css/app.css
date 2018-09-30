@@ -4,3 +4,11 @@
 
 @tailwind components;
 @tailwind utilities;
+
+.logo {
+  background-image: url('../images/logo.jpg');
+  width: 100px;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+}

@@ -3,6 +3,7 @@ const glob = require('glob');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = (env, options) => ({
   optimization: {
@@ -37,14 +38,24 @@ module.exports = (env, options) => ({
             loader: 'style-loader',
           },
           {
+            loader: MiniCssExtractPlugin.loader
+          },
+          {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
+              url: false
             }
           },
           {
             loader: 'postcss-loader'
           }
+        ]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader'
         ]
       }
     ]
@@ -53,6 +64,9 @@ module.exports = (env, options) => ({
     new CopyWebpackPlugin([{
       from: 'static/',
       to: '../'
-    }])
+    }]),
+    new MiniCssExtractPlugin({
+      filename: '../css/app.css'
+    })
   ]
 });
