@@ -4,8 +4,8 @@
   <div class="flex flex-coll flex-no-wrap justify-center">
     <%= for post <- @post_list do %>
       <a class="text-center text-xl font-semibold"
-          href="<%= blog_path(@conn, :show, post[:slug]) %>">
-          <%= post[:title] %>
+          href="<%= blog_path(@conn, :show, post.slug) %>">
+          <%= post.title %>
       </a>
     <% end %>
   </div>

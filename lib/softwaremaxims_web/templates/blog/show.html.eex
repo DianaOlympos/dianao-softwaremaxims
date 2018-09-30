@@ -1,6 +1,5 @@
 <div class="container">
-  <h1 class="text-center"> <%= @blog_post[:title] %> </h1>
   <div class="container mx-auto">
-    <%= @blog_post[:body] %>
+    <%= Phoenix.HTML.raw(@blog_post.body) %>
   </div>
 </div>

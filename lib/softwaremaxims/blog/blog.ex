@@ -1,16 +1,14 @@
 defmodule Softwaremaxims.Blog do
+  alias Softwaremaxims.Blog.PostStorage
+  alias Softwaremaxims.Blog.Post
+
   def list() do
-    [
-      %{
-        title: "an amazing title",
-        body: "an even more amazing body",
-        slug: "amazing-post"
-      }
-    ]
+    PostStorage.get_all()
+    |> Enum.map(fn {slug, body} -> Post.new(slug, body) end)
   end
 
   def get_post(slug) do
-    post_list = list()
-    Enum.find(post_list, fn x -> x[:slug] == slug end)
+    {slug, body} = PostStorage.get_by_slug(slug)
+    Post.new(slug, body)
   end
 end

@@ -2,5 +2,8 @@
   "flow.enabled": false,
   "css.lint.duplicateProperties": "warning",
   "css.lint.float": "warning",
-  "css.lint.important": "warning"
+  "css.lint.important": "warning",
+  "elixirLS.dialyzerEnabled": true,
+  "editor.formatOnSave": true,
+  "elixirLS.suggestSpecs": false
 }
