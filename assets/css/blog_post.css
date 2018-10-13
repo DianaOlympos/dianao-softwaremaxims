@@ -1,0 +1,9 @@
+@tailwind preflight;
+
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+  @apply .text-xl .font-bold .mb-2 .mt-2 text-light-accent;
+}

@@ -1,12 +1,19 @@
 <div class="container">
-  <h1 class="text-center"> This is a blog about software </h1>
-  <h2 class="text-center"> Blog </h2>
+  <h1 class="text-center font-bold my-3 text-light-colour"> Musings about software </h1>
   <div class="flex flex-col flex-no-wrap justify-center">
     <%= for post <- @post_list do %>
-      <a class="text-center text-xl font-semibold"
-          href="<%= blog_path(@conn, :show, post.slug) %>">
+    <div class="flex mt-8 bg-light-colour p-4 rounded-lg">
+      <div class="">
+        <a class="primary-link post-title-list"
+            href="<%= blog_path(@conn, :show, post.slug) %>">
           <%= post.title %>
-      </a>
+        </a>
+        <p class="mt-4 mr-6">
+          <%= post.intro %>
+        </p>
+      </div>
+      <img class="blog-image" src="<%= static_path(@conn, post.image) %>">
+    </div>
     <% end %>
   </div>
 </div>

@@ -1,4 +1,6 @@
 defmodule Softwaremaxims.Blog.PostStorage do
+  alias Softwaremaxims.Blog.Post
+
   use GenServer
 
   # Client
@@ -8,28 +10,16 @@ defmodule Softwaremaxims.Blog.PostStorage do
 
   # internal implementation
   def post_folder() do
-    Application.app_dir(:softwaremaxims, ["priv", "blog"])
+    Application.app_dir(:softwaremaxims, ["priv"])
   end
 
   def create_posts(folder, table) do
     file_list =
-      folder
-      |> File.ls!()
-      |> Enum.map(&Path.join(folder, &1))
+      Post.post_index()
+      |> Enum.map(&Map.put(&1, :full_path, Path.join(folder, &1[:file_name])))
 
-    blog_posts_list = Enum.map(file_list, &generate_post/1)
+    blog_posts_list = Enum.map(file_list, &Post.generate_post/1)
     true = :ets.insert(table, blog_posts_list)
-  end
-
-  def generate_post(file_name) do
-    file_content = File.read!(file_name)
-
-    {:ok, post_html, _something} = Earmark.as_html(file_content)
-
-    {
-      Path.basename(file_name, ".md"),
-      post_html
-    }
   end
 
   def get_by_slug(slug) do

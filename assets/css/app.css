@@ -5,16 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo {
-  background-image: url('../images/logo.jpg');
-  width: 100px;
-  height: 60px;
-  background-size: cover;
-  background-position: center;
-}
-
-h1 {
-  @apply .text-xl .font-bold .mb-2 .mt-2;
+.blog-image {
+  width: 20%;
+  height: 20%;
 }
 
 .blogpost {
@@ -23,4 +16,20 @@ h1 {
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.primary-link {
+  @apply .text-light-colour .no-underline
+}
+
+.primary-link:hover {
+  @apply .text-light-accent
+}
+
+.post-title-list {
+  @apply .text-center .text-xl .font-semibold text-dark-colour
+}
+
+.post-title-list:hover {
+  @apply .underline
 }

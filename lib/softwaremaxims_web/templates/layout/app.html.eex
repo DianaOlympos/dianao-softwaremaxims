@@ -9,32 +9,35 @@
 
     <title>Software Maxims</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <%= if @view_module == SoftwaremaximsWeb.BlogView do %>
+          <link rel="stylesheet" href="<%= static_path(@conn, "/css/blog_post.css") %>">
+    <% end %>
   </head>
 
-  <body>
+  <body class="bg-dark-colour">
     <div class="container mx-auto">
       <header class="header">
         <nav class="container">
           <div class="flex items-center justify-center flex-wrap p-6 bg-main-colour">
-            <a class="text-dark-colour text-xl font-bold hover:text-dark-accent no-underline" href="<%= page_path(@conn, :index) %>">
+            <a class="text-dark-colour text-4xl font-bold hover:text-dark-accent no-underline" href="<%= page_path(@conn, :index) %>">
               Software Maxims
             </a>
           </div>
           <ul class="list-reset flex items-center justify-center flex-wrap border-b-2 border-light-accent">
             <li class="p-4">
-              <a class="text-dark-colour font-bold hover:text-light-accent no-underline href="<%= page_path(@conn, :index) %>">
+              <a class="primary-link text-xl font-bold" href="<%= page_path(@conn, :index) %>">
                 Blog
               </a>
             </li>
             <li class="p-4">
-              <a class="text-dark-colour font-bold hover:text-light-accent no-underline" href="https://dianaolympos.github.io/">
+              <a class="primary-link text-xl font-bold" href="https://dianaolympos.github.io/">
                 Resume
               </a>
             </li>
-            <li class="p-4">
+            <li class="p-4 text-light-colour">
               Talks
             </li>
-            <li class="p-4">
+            <li class="p-4 text-light-colour">
               About
             </li>
           </ul>

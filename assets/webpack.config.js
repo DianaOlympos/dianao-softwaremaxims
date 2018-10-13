@@ -17,10 +17,11 @@ module.exports = (env, options) => ({
     ]
   },
   entry: {
-    './js/app.js': ['./js/app.js'].concat(glob.sync('./vendor/**/*.js'))
+    'app': ['./js/app.js'].concat(glob.sync('./vendor/**/*.js')),
+    'blog_post': './js/blog_post.js'
   },
   output: {
-    filename: 'app.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, '../priv/static/js')
   },
   module: {
@@ -66,7 +67,7 @@ module.exports = (env, options) => ({
       to: '../'
     }]),
     new MiniCssExtractPlugin({
-      filename: '../css/app.css'
+      filename: '../css/[name].css'
     })
   ]
 });
