@@ -12,13 +12,30 @@
   </head>
 
   <body>
-    <div class="container w-9/10 mx-auto">
+    <div class="container mx-auto">
       <header class="header">
-        <nav class="flex items-center justify-between flex-wrap bg-red-darker p-6">
-          <div class="logo" title="SNAFU image"></div>
-          <ul class="list-reset flex">
-            <li class="mr-6">
-              <a class="block mt-4 text-pink-lighter hover:text-white mr-4 no-underline" href="<%= page_path(@conn, :index) %>">Software Maxims</a>
+        <nav class="container">
+          <div class="flex items-center justify-center flex-wrap p-6 bg-main-colour">
+            <a class="text-dark-colour text-xl font-bold hover:text-dark-accent no-underline" href="<%= page_path(@conn, :index) %>">
+              Software Maxims
+            </a>
+          </div>
+          <ul class="list-reset flex items-center justify-center flex-wrap border-b-2 border-light-accent">
+            <li class="p-4">
+              <a class="text-dark-colour font-bold hover:text-light-accent no-underline href="<%= page_path(@conn, :index) %>">
+                Blog
+              </a>
+            </li>
+            <li class="p-4">
+              <a class="text-dark-colour font-bold hover:text-light-accent no-underline" href="https://dianaolympos.github.io/">
+                Resume
+              </a>
+            </li>
+            <li class="p-4">
+              Talks
+            </li>
+            <li class="p-4">
+              About
             </li>
           </ul>
         </nav>

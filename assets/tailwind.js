@@ -44,6 +44,19 @@ View the full documentation at https://tailwindcss.com.
 */
 
 let colors = {
+
+  /* colour picked with http://colormind.io/bootstrap/ and 
+  https://davidmathlogic.com/colorblind/#%23FFFFFF-%23D55E00-%231E88E5-%237A546B-%23191C22
+  do not change except if you know what you are doing, they are good for all colourblindness
+
+  dark-accent is to not be used */
+
+  'main-colour': '#1E88E5',
+  'light-accent': '#D55E00',
+  'light-colour': '#FFFFFF',
+  'dark-colour': '#191C22',
+  'dark-accent': '#7A546B',
+
   'transparent': 'transparent',
 
   'black': '#22292f',
@@ -250,15 +263,15 @@ module.exports = {
   */
 
   textSizes: {
-    'xs': '.75rem',     // 12px
-    'sm': '.875rem',    // 14px
-    'base': '1rem',     // 16px
-    'lg': '1.125rem',   // 18px
-    'xl': '1.25rem',    // 20px
-    '2xl': '1.5rem',    // 24px
-    '3xl': '1.875rem',  // 30px
-    '4xl': '2.25rem',   // 36px
-    '5xl': '3rem',      // 48px
+    'xs': '.75rem', // 12px
+    'sm': '.875rem', // 14px
+    'base': '1rem', // 16px
+    'lg': '1.125rem', // 18px
+    'xl': '1.25rem', // 20px
+    '2xl': '1.5rem', // 24px
+    '3xl': '1.875rem', // 30px
+    '4xl': '2.25rem', // 36px
+    '5xl': '3rem', // 48px
   },
 
 
@@ -419,7 +432,9 @@ module.exports = {
   |
   */
 
-  borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
+  borderColors: global.Object.assign({
+    default: colors['grey-light']
+  }, colors),
 
 
   /*

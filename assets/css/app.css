@@ -20,3 +20,7 @@ h1 {
 .blogpost {
   @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .w-4/5;
 }
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
