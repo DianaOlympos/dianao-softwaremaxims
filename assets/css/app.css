@@ -5,11 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.blog-image {
+.blog-image-size {
+  min-width: 250px;
   width: 20%;
   height: 20%;
 }
 
+.blog-image {
+  @apply .blog-image-size .m-2;
+}
 .blogpost {
   @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto;
 }

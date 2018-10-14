@@ -2,7 +2,7 @@
   <h1 class="text-center font-bold my-3 text-light-colour"> Musings about software </h1>
   <div class="flex flex-col flex-no-wrap justify-center">
     <%= for post <- @post_list do %>
-    <div class="flex mt-8 bg-light-colour p-4 rounded-lg">
+    <div class="flex mt-8 bg-light-colour p-4 rounded-lg m-2 flex-wrap-reverse justify-center">
       <div class="">
         <a class="primary-link post-title-list"
             href="<%= blog_path(@conn, :show, post.slug) %>">
