@@ -3,7 +3,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@import ./app.css;
 
 h1 {
-  @apply .text-xl .font-bold .mb-2 .mt-2 text-light-accent;
+  @apply .text-2xl .font-bold .m-4 .text-dark-colour .leading-tight;
+}
+
+h2 {
+  @apply .text-xl .font-medium .mx-4 .my-2 .text-dark-colour .leading-tight;
+}
+
+p {
+  @apply .text-base .font-normal .mx-6 .my-2 .text-dark-colour .leading-normal .text-justify;
+}
+
+img {
+  @apply image-position rounded-sm;
+}
+
+.image-position {
+  object-position: center center;
+  object-fit: contain;
+}
+
+a {
+  @apply .primary-link .text-dark-accent;
+}
+
+a:hover {
+  @apply .text-light-accent .underline;
+}
+
+blockquote {
+  @apply .mx-3 .text-lg .italic;
+}
+
+pre {
+  @apply .flex .mx-16 .my-1 .self-stretch items-start;
+}
+
+strong {
+  @apply .font-semibold;
 }

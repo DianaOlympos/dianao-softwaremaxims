@@ -10,7 +10,7 @@
     <title>Software Maxims</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
     <%= if @view_module == SoftwaremaximsWeb.BlogView do %>
-          <link rel="stylesheet" href="<%= static_path(@conn, "/css/blog_post.css") %>">
+      <link rel="stylesheet" href="<%= static_path(@conn, "/css/blog_post.css") %>">
     <% end %>
   </head>
 

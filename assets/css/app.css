@@ -11,7 +11,7 @@
 }
 
 .blogpost {
-  @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .w-4/5;
+  @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto;
 }
 
 .justify-evenly {
@@ -19,17 +19,17 @@
 }
 
 .primary-link {
-  @apply .text-light-colour .no-underline
+  @apply .text-light-colour .no-underline;
 }
 
 .primary-link:hover {
-  @apply .text-light-accent
+  @apply .text-light-accent;
 }
 
 .post-title-list {
-  @apply .text-center .text-xl .font-semibold text-dark-colour
+  @apply .text-center .text-xl .font-semibold text-dark-colour;
 }
 
 .post-title-list:hover {
-  @apply .underline
+  @apply .underline;
 }
