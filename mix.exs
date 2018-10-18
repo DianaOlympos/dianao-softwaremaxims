@@ -39,7 +39,8 @@ defmodule Softwaremaxims.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:jason, "~> 1.1"},
-      {:earmark, "~> 1.2"}
+      {:earmark, "~> 1.2"},
+      {:toml, "~> 0.4.0"}
     ]
   end
 end
