@@ -22,7 +22,7 @@ p {
 }
 
 img {
-  @apply image-position rounded-sm;
+  @apply .rounded-sm;
   object-position: center center;
   object-fit: cover;
 }

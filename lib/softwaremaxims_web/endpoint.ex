@@ -56,7 +56,7 @@ defmodule SoftwaremaximsWeb.Endpoint do
           raise "expected the SECRET_KEY_BASE environment variable to be set"
 
       {:ok,
-       Keyword.put(config, :http, [:inet6, port: port])
+       Keyword.put(config, :http, port: elem(Integer.parse(port), 0))
        |> Keyword.put(:secret_key_base, secret_key_base)}
     else
       {:ok, config}
