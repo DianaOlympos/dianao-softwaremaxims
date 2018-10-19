@@ -17,7 +17,7 @@ config :softwaremaxims, SoftwaremaximsWeb.Endpoint,
   server: true,
   load_from_system_env: true,
   http: [port: "something"],
-  url: [host: "example.com", port: 80],
+  url: [host: "wwww.softwaremaxims.com", port: 80],
   secret_key_base: "something",
   cache_static_manifest: "priv/static/cache_manifest.json"
 
