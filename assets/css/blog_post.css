@@ -5,16 +5,20 @@
 
 @import ./app.css;
 
+.blogpost {
+  @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .text-dark-colour;
+}
+
 h1 {
-  @apply .text-2xl .font-bold .m-4 .text-dark-colour .leading-tight;
+  @apply .text-2xl .font-bold .m-4 .leading-tight;
 }
 
 h2 {
-  @apply .text-xl .font-medium .mx-4 .my-2 .text-dark-colour .leading-tight;
+  @apply .text-xl .font-medium .mx-4 .my-2 .leading-tight;
 }
 
 p {
-  @apply .text-base .font-normal .mx-6 .my-2 .text-dark-colour .leading-normal .text-justify;
+  @apply .text-base .font-normal .mx-6 .my-2 .leading-normal .text-justify;
 }
 
 img {
