@@ -40,7 +40,8 @@ defmodule Softwaremaxims.Mixfile do
       {:cowboy, "~> 1.0"},
       {:jason, "~> 1.1"},
       {:earmark, "~> 1.2"},
-      {:toml, "~> 0.4.0"}
+      {:toml, "~> 0.4.0"},
+      {:distillery, "~> 2.0"}
     ]
   end
 end

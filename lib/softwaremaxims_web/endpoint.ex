@@ -8,7 +8,9 @@ defmodule SoftwaremaximsWeb.Endpoint do
   # You should set gzip to true if you are running phoenix.digest
   # when deploying your static files in production.
   plug Plug.Static,
-    at: "/", from: :softwaremaxims, gzip: false,
+    at: "/",
+    from: :softwaremaxims,
+    gzip: false,
     only: ~w(css fonts images js favicon.ico robots.txt)
 
   # Code reloading can be explicitly enabled under the
@@ -48,7 +50,14 @@ defmodule SoftwaremaximsWeb.Endpoint do
   def init(_key, config) do
     if config[:load_from_system_env] do
       port = System.get_env("PORT") || raise "expected the PORT environment variable to be set"
-      {:ok, Keyword.put(config, :http, [:inet6, port: port])}
+
+      secret_key_base =
+        System.get_env("SECRET_KEY_BASE") ||
+          raise "expected the SECRET_KEY_BASE environment variable to be set"
+
+      {:ok,
+       Keyword.put(config, :http, [:inet6, port: port])
+       |> Keyword.put(:secret_key_base, secret_key_base)}
     else
       {:ok, config}
     end

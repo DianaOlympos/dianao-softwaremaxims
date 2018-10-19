@@ -15,7 +15,9 @@ use Mix.Config
 # which you typically run after static files are built.
 config :softwaremaxims, SoftwaremaximsWeb.Endpoint,
   load_from_system_env: true,
+  http: [port: "something"],
   url: [host: "example.com", port: 80],
+  secret_key_base: "something"
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 # Do not print debug messages in production
@@ -58,7 +60,3 @@ config :logger, level: :info
 #
 #     config :softwaremaxims, SoftwaremaximsWeb.Endpoint, server: true
 #
-
-# Finally import the config/prod.secret.exs
-# which should be versioned separately.
-import_config "prod.secret.exs"
