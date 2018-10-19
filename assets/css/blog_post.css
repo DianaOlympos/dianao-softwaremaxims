@@ -23,11 +23,8 @@ p {
 
 img {
   @apply image-position rounded-sm;
-}
-
-.image-position {
   object-position: center center;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 a {
