@@ -10,15 +10,16 @@
 }
 
 h1 {
-  @apply .text-2xl .font-bold .m-4 .leading-tight;
+  @apply .text-5xl .font-bold .m-4 .leading-tight;
 }
 
 h2 {
-  @apply .text-xl .font-medium .mx-4 .my-2 .leading-tight;
+  @apply .text-2xl .font-bold .mx-6 .mt-5 .mb-2 .leading-tight .self-start;
 }
 
 p {
-  @apply .text-base .font-normal .mx-6 .my-2 .leading-normal .text-justify;
+  @apply .text-base .font-normal .mx-6 .my-1 .leading-normal .text-justify .self-start;
+  letter-spacing: -.003em;;
 }
 
 img {
@@ -40,9 +41,17 @@ blockquote {
 }
 
 pre {
-  @apply .flex .mx-16 .my-1 .self-stretch items-start;
+  @apply .flex .mx-16 .my-2 .self-stretch items-start;
 }
 
 strong {
   @apply .font-semibold;
+}
+
+.blog-post-image {
+  @apply .mt-3 rounded-l;
+  width: 75vw;
+  height: 30vw;
+  max-height: 300px;
+  max-width: 1000px;
 }

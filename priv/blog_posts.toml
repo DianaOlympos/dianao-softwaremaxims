@@ -1,27 +1,11 @@
 [[blog_post]]
 title = """
-        Stand in front of the computer screen \
-        chew foot pounce on unsuspecting person\
+        Hello World !
         """
 intro = """
-        Hack up furballs chase red laser dot jump \
-        five feet high and sideways when a shadow \
-        moves ask to be pet then attack owners hand\
+        Finally. After more than two years of talking about it, I have a place to put my rants on. \
+        I want to talk about the tech stack behind it and some choices i made. I ended up writing \
+        my own blog engine and learn a bit in the process.\
         """
-image = "/images/logo.jpg"
-file_name = "/blog/stand-in.md"
-
-[[blog_post]]
-title = """
-        Meeeeouw claw at curtains stretch and yawn \
-        nibble on tuna ignore human bite human hand \
-        have my breakfast spaghetti yarn\
-        """
-intro = """
-        Knock dish off table head butt cant eat out \
-        of my own dish head nudges spit up on light \
-        gray carpet instead of adjacent linoleum hiss \
-        and stare at nothing then run suddenly away\
-        """
-image = "/images/logo.jpg"
-file_name = "/blog/meeeeouw-claw.md"
+image = "/images/hello-world.jpg"
+file_name = "/blog/hello-world.md"

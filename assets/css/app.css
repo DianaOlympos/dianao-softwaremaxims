@@ -11,7 +11,7 @@
 }
 
 .blog-card-image {
-  @apply .m-2;
+  @apply .m-2 .rounded-sm;
   min-width: 50px;
   max-width: 250px;
   min-height: 50px;
@@ -37,7 +37,7 @@
 }
 
 .post-title-list {
-  @apply .text-center .text-xl .font-semibold text-dark-colour;
+  @apply .text-center .text-3xl .font-semibold text-dark-colour;
 }
 
 .post-title-list:hover {
