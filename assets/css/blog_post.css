@@ -6,7 +6,7 @@
 @import ./app.css;
 
 .blogpost {
-  @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .text-dark-colour;
+  @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .text-dark-colour pb-3;
 }
 
 h1 {

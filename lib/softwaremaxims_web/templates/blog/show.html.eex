@@ -1,4 +1,4 @@
-<div class="container blogpost bg-light-colour border-4 border-dark-colour rounded-lg flex items-center">
+<div class="container blogpost bg-light-colour border-4 border-dark-colour rounded-lg flex items-center mb-6">
   <img class="blog-post-image" src="<%= static_path(@conn, @blog_post.image) %>">
   <%= Phoenix.HTML.raw(@blog_post.body) %>
 </div>
