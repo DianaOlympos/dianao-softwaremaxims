@@ -2,6 +2,8 @@
 
 # We should have caught it
 
+[Feel free to open this playlist in the background while reading this post](https://open.spotify.com/user/diana_olympos/playlist/4Av7q8mhBAqlOSWVesq8VM?si=VxdVsgclRuqvDvu5ro5byQ)
+
 You have at least one passionate friend. Many even. Maybe are you passionate yourself. It does not matter what the focus of that passion is. It is easy to figure out which of your friend is passionate about a topic. All you need to do is to talk about that topic. State an opinion on it. If your opinion is about one of their passion, they will turn into *that* person. You know what i am talking about. They will transform what was an evening out into an evening dedicated to that topic. Which bring us to this post. As my friends says, I tend to have strong opinions. Which come in part from the passion i hold about some of the topics i have strong opinions about. Long story short, I care about some topics around software and society. I think they matter. Two particularly sensitive one are *testing* software and *systems safety*.[[1]](#fn1){:#ref1}
 
 So a few days ago, i was going through my twitter timeline and i saw this tweet.
@@ -72,7 +74,7 @@ We get to that point because software practitioners are not expert. The mainstre
 
 ## Thank God for Jack Daniels
 
-We can blame the system we are in, all the agile coach, the management, the economical pressure, Venture Capitalists, etc. But what i see here is a lack of *expertise*. We have yet to understand that our code does impact people. We have yet to realize it as a field. Some of us do. As a field, we will need to accept that software systems are complex socio-technical systems. That we have a responsibility. That we need to provide arguments to back our decisions, not excuses. This is when we will become a field of expertise. When we decide as a field that we are responsible for the safety of our society, of our systems. That we are the one that act and make the decisions that create these situations. That we need to learn from these situations.
+We can blame the system we are in, all the agile coach, the management, the economical pressure, Venture Capitalists, etc. But what i see here is a lack of *expertise*. We have yet to understand that our code does impact people. As a field, we will need to accept that software systems are complex socio-technical systems. That we have a responsibility. That we need to provide arguments to back our decisions, not excuses. This is when we will become a field of expertise. When we decide as a field that we are responsible for the safety of our society, of our systems. That we are the one that act and make the decisions that create these situations. That we need to learn from these situations.
 
 We tell ourselves that we are not in a safety critical business because it is a far easier way out. Because we do not have the knowledge and the experience to become experts. Because we are not recognized as such. Because we do not want to accept the responsibility. Most of us came to this field because they like building things. No-one told most of us that what we build would have such consequences. No-one told use we would have to live with the consequences. But if we want to get better, we need the whole field to grow and look at what we are doing. We need to stand up and find ways to grow experts.
 
@@ -86,8 +88,8 @@ I can not give a perfect plan to get there. But i have hopes. Hopes in people en
 
 ---
 
-1. <span id="fn1">For completely different reasons that said.</span> [Back](#ref1) 
-2. <span id="fn2">There is probably matters for its own blog post, but not today.</span> [Back](#ref2) 
+1. <span id="fn1">For completely different reasons that said.</span> [Back](#ref1)
+2. <span id="fn2">There is probably matters for its own blog post, but not today.</span> [Back](#ref2)
 3. <span id="fn3">This is based on a true story with some adaptation see [this FCC report.](https://www.fcc.gov/document/april-2014-multistate-911-outage-report).</span> [Back](#ref3) 
-4. <span id="fn4">James Shanteau, [The Psychology of Experts: An Alternative View (1992).](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.318.6027&rep=rep1&type=pdf)</span> [Back](#ref4) 
-5. <span id="fn5">Gene Kranz, [Space Lifeguard: An Interview with Gene Kranz.](http://web.archive.org/web/20000818064509/http://www.space.com/peopleinterviews/apollo13_kranz_iview_000411.html)</span> [Back](#ref5) 
+4. <span id="fn4">James Shanteau, [The Psychology of Experts: An Alternative View (1992).](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.318.6027&rep=rep1&type=pdf)</span> [Back](#ref4)
+5. <span id="fn5">Gene Kranz, [Space Lifeguard: An Interview with Gene Kranz.](http://web.archive.org/web/20000818064509/http://www.space.com/peopleinterviews/apollo13_kranz_iview_000411.html)</span> [Back](#ref5)

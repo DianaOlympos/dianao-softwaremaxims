@@ -43,3 +43,27 @@
 .post-title-list:hover {
   @apply .underline;
 }
+
+.main-footer {
+  @apply .bg-dark-colour .text-light-colour .mx-auto .self-center .flex .flex-col .my-3;
+}
+
+.footer-text {
+  @apply .mx-auto .self-center .text-center;
+}
+
+.footer-list {
+  @apply .flex .justify-center .self-center .my-1;
+}
+
+.footer-element {
+  @apply .list-reset .mx-3;
+}
+
+.footer-link {
+  @apply .text-light-accent .no-underline;
+}
+
+.footer-link:hover {
+  @apply .text-dark-accent;
+}
