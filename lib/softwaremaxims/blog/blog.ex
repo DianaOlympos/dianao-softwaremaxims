@@ -4,6 +4,7 @@ defmodule Softwaremaxims.Blog do
   def list() do
     PostStorage.get_all()
     |> Enum.map(fn {_slug, post} -> post end)
+    |> Enum.reverse()
   end
 
   def get_post(slug) do

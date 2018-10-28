@@ -9,3 +9,14 @@ intro = """
         """
 image = "/images/hello-world.jpg"
 file_name = "/blog/hello-world.md"
+
+[[blog_post]]
+title = """
+        We should have caught it
+        """
+intro = """
+        Where i get passionate about expertise and despair of the state of our field. \
+        But hey, there are hope too. I hope @noahsussman is happy about the result. \
+        """
+image = "/images/gimli_glider.jpeg"
+file_name = "/blog/we-should-have-caught-it.md"
