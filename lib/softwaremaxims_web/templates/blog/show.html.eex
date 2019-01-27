@@ -1,4 +1,4 @@
 <div class="container blogpost">
-  <img class="blog-post-image" src="<%= static_path(@conn, @blog_post.image) %>">
+  <img class="blog-post-image" src="<%= Routes.static_path(@conn, @blog_post.image) %>">
   <%= Phoenix.HTML.raw(@blog_post.body) %>
 </div>

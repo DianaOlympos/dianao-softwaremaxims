@@ -9,9 +9,9 @@
 
     <link rel="icon" href="/favicon.ico">
     <title>Software Maxims</title>
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>">
     <%= if @view_module == SoftwaremaximsWeb.BlogView do %>
-      <link rel="stylesheet" href="<%= static_path(@conn, "/css/blog_post.css") %>">
+      <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/blog_post.css") %>">
     <% end %>
   </head>
 
@@ -20,13 +20,13 @@
       <header class="header">
         <nav class="container">
           <div class="flex items-center justify-center flex-wrap p-6 bg-main-colour">
-            <a class="text-dark-colour text-3xl font-bold hover:text-dark-accent no-underline" href="<%= page_path(@conn, :index) %>">
+            <a class="text-dark-colour text-3xl font-bold hover:text-dark-accent no-underline" href="<%= Routes.page_path(@conn, :index) %>">
               Software Maxims
             </a>
           </div>
           <ul class="list-reset flex items-center justify-center flex-wrap border-b-2 border-light-accent">
             <li class="p-4">
-              <a class="primary-link text-lg font-bold" href="<%= page_path(@conn, :index) %>">
+              <a class="primary-link text-lg font-bold" href="<%= Routes.page_path(@conn, :index) %>">
                 Blog
               </a>
             </li>
@@ -50,7 +50,7 @@
       </main>
 
     </div> <!-- /container -->
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    <script src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
   <footer class="container main-footer">
     <p class="footer-text">If you have any comment or want to contact me, please use one of these.</p>

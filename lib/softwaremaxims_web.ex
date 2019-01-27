@@ -21,7 +21,7 @@ defmodule SoftwaremaximsWeb do
     quote do
       use Phoenix.Controller, namespace: SoftwaremaximsWeb
       import Plug.Conn
-      import SoftwaremaximsWeb.Router.Helpers
+      alias SoftwaremaximsWeb.Router.Helpers, as: Routes
       import SoftwaremaximsWeb.Gettext
     end
   end
@@ -37,7 +37,7 @@ defmodule SoftwaremaximsWeb do
       # Use all HTML functionality (forms, tags, etc)
       use Phoenix.HTML
 
-      import SoftwaremaximsWeb.Router.Helpers
+      alias SoftwaremaximsWeb.Router.Helpers, as: Routes
       import SoftwaremaximsWeb.ErrorHelpers
       import SoftwaremaximsWeb.Gettext
     end
@@ -48,13 +48,6 @@ defmodule SoftwaremaximsWeb do
       use Phoenix.Router
       import Plug.Conn
       import Phoenix.Controller
-    end
-  end
-
-  def channel do
-    quote do
-      use Phoenix.Channel
-      import SoftwaremaximsWeb.Gettext
     end
   end
 

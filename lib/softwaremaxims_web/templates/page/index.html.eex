@@ -5,14 +5,14 @@
     <div class="blog-card">
       <div class="blog-card-text">
         <a class="primary-link post-title-list"
-            href="<%= blog_path(@conn, :show, post.slug) %>">
+            href="<%= Routes.blog_path(@conn, :show, post.slug) %>">
           <%= post.title %>
         </a>
         <p class="mt-4 mr-6 text-lg font-medium font-mono">
           <%= post.intro %>
         </p>
       </div>
-      <img class="blog-card-image" src="<%= static_path(@conn, post.image) %>">
+      <img class="blog-card-image" src="<%= Routes.static_path(@conn, post.image) %>">
     </div>
     <% end %>
   </div>
