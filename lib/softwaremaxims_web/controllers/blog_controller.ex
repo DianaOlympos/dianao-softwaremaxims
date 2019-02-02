@@ -3,6 +3,6 @@ defmodule SoftwaremaximsWeb.BlogController do
 
   def show(conn, %{"slug" => slug}) do
     blog_post = Softwaremaxims.Blog.get_post(slug)
-    render conn, "show.html", blog_post: blog_post
+    render(conn, "show.html", blog_post: blog_post, add_blog_style: true)
   end
 end

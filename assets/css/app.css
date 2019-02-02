@@ -33,6 +33,9 @@
   @apply text-lg font-bold
 }
 
+.page-title {
+  @apply .text-center .font-bold .my-3 .mx-0 .text-light-colour text-4xl .leading-normal
+}
 
 .blog-card {
   @apply .flex .bg-light-colour .p-4 .rounded-lg .m-2 .mt-8 .flex-wrap-reverse .justify-center .items-center;

@@ -14,10 +14,12 @@ defmodule SoftwaremaximsWeb.Router do
   end
 
   scope "/", SoftwaremaximsWeb do
-    pipe_through :browser # Use the default browser stack
+    # Use the default browser stack
+    pipe_through :browser
 
     get "/", PageController, :index
     get "/blog/:slug", BlogController, :show
+    get "/about", AboutController, :index
   end
 
   # Other scopes may use custom stacks.

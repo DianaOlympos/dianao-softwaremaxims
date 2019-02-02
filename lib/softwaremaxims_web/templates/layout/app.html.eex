@@ -10,7 +10,7 @@
     <link rel="icon" href="/favicon.ico">
     <title>Software Maxims</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>">
-    <%= if @view_module == SoftwaremaximsWeb.BlogView do %>
+    <%= if Map.get(@conn.assigns, :add_blog_style, false) do %>
       <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/blog_post.css") %>">
     <% end %>
   </head>
@@ -38,8 +38,10 @@
             <li class="navbar-container navbar-placeholder">
               Talks
             </li>
-            <li class="navbar-container navbar-placeholder">
-              About
+            <li class="navbar-container">
+              <a class="primary-link navbar-link" href="<%= Routes.about_path(@conn, :index) %>">
+                About
+              </a>
             </li>
           </ul>
         </nav>
