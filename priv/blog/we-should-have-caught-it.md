@@ -70,7 +70,7 @@ Are you confident that you know better and that your decision on that feature is
 
 If i look at the history of our field, you will follow the rules. You will follow the thought leaders and their manual for "Clean Code". You will build the feature, using one of the excuses i quoted before. We are not a bank. It is not that important. We do not write code for planes. It is a small feature anyway. Someone else will do it if not me. Now reread these rules about expertise. And take a moment to think. Where is your sense of responsibility? Will you stand behind your code?
 
-We get to that point because software practitioners are not expert. The mainstream developer is a cog in a machine of course. They have really few voice. They are not an expert. They are a skilled worker. Yes, they have a special set of skills, that is hard to find and is in demand. But they are not experts. They are here to be an actor in the bigger organisation with limited responsibilities.
+We got to that point because software practitioners are not expert. The mainstream developer is a cog in a machine of course. They have really few voice. They are not an expert. They are a skilled worker. Yes, they have a special set of skills, that is hard to find and is in demand. But they are not experts. They are here to be an actor in the bigger organisation with limited responsibilities.
 
 ## Thank God for Jack Daniels
 
