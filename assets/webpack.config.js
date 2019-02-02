@@ -1,9 +1,11 @@
+/* eslint-disable eol-last */
 const path = require('path');
 const glob = require('glob');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const devMode = process.env.NODE_ENV !== 'production'
 
 module.exports = (env, options) => ({
   optimization: {
@@ -35,12 +37,8 @@ module.exports = (env, options) => ({
       {
         test: /\.css$/,
         exclude: /node_modules/,
-        use: [{
-            loader: 'style-loader',
-          },
-          {
-            loader: MiniCssExtractPlugin.loader
-          },
+        use: ['style-loader',
+          MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
             options: {
@@ -48,9 +46,7 @@ module.exports = (env, options) => ({
               url: false
             }
           },
-          {
-            loader: 'postcss-loader'
-          }
+          'postcss-loader'
         ]
       },
       {
@@ -70,4 +66,4 @@ module.exports = (env, options) => ({
       filename: '../css/[name].css'
     })
   ]
-});
+})

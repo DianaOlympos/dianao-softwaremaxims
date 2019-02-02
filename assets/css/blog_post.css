@@ -1,9 +1,10 @@
+@import "./app.css";
+
 @tailwind preflight;
 
 @tailwind components;
 @tailwind utilities;
 
-@import ./app.css;
 
 .blogpost {
   @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .text-dark-colour .pb-3 .bg-light-colour .border-4 .border-dark-colour .rounded-lg .items-center mt-2;
@@ -30,7 +31,7 @@ img {
 }
 
 a {
-  @apply .primary-link .text-dark-accent;
+  @apply .text-light-colour .no-underline .text-dark-accent;
 }
 
 a:hover {

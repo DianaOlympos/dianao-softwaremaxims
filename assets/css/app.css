@@ -5,6 +5,35 @@
 @tailwind components;
 @tailwind utilities;
 
+.header-title {
+  @apply .flex .items-center .justify-center .flex-wrap p-6 .bg-main-colour
+}
+
+.header-title-link {
+  @apply .text-dark-colour .text-3xl .font-bold .no-underline
+}
+
+.header-title-link:hover {
+  @apply .text-dark-accent
+}
+
+.navbar {
+  @apply .list-reset .m-0 .flex .items-center .justify-center .flex-wrap .border-b-2 .border-light-accent
+}
+
+.navbar-container {
+  @apply .p-4 .m-0 leading-normal .text-justify .self-start
+}
+
+.navbar-placeholder {
+  @apply .text-light-colour .text-base
+}
+
+.navbar-link {
+  @apply text-lg font-bold
+}
+
+
 .blog-card {
   @apply .flex .bg-light-colour .p-4 .rounded-lg .m-2 .mt-8 .flex-wrap-reverse .justify-center .items-center;
   width: auto;
