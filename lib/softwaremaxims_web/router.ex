@@ -20,6 +20,8 @@ defmodule SoftwaremaximsWeb.Router do
     get "/", PageController, :index
     get "/blog/:slug", BlogController, :show
     get "/about", AboutController, :index
+    get "/consulting", ConsultingController, :index
+    get "/resume", ResumeController, :index
   end
 
   # Other scopes may use custom stacks.
