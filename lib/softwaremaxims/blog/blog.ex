@@ -1,5 +1,6 @@
 defmodule Softwaremaxims.Blog do
   alias Softwaremaxims.Blog.PostStorage
+  alias Softwaremaxims.Blog.UnpublishedPostStorage
 
   def list() do
     PostStorage.get_all()
@@ -9,6 +10,11 @@ defmodule Softwaremaxims.Blog do
 
   def get_post(slug) do
     {_slug, post} = PostStorage.get_by_slug(slug)
+    post
+  end
+
+  def unpublished_get_post(slug) do
+    {_slug, post} = UnpublishedPostStorage.get_by_slug(slug)
     post
   end
 end

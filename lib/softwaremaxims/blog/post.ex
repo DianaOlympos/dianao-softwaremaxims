@@ -41,4 +41,11 @@ defmodule Softwaremaxims.Blog.Post do
       new(slug, meta, post_html)
     }
   end
+
+  def unpublished_post_index() do
+    Application.app_dir(:softwaremaxims, ["priv"])
+    |> Path.join("blog_posts.toml")
+    |> Toml.decode_file!(keys: :atoms!)
+    |> Map.get(:unpublished_blog_post)
+  end
 end

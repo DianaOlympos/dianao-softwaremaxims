@@ -20,3 +20,14 @@ intro = """
         """
 image = "/images/gimli_glider.jpeg"
 file_name = "/blog/we-should-have-caught-it.md"
+
+[[unpublished_blog_post]]
+title = """
+        Data Science, Politics, Ethics and feedback
+        """
+intro = """
+        Diving into a paper on making data science better for society by making \
+        the field political. Let's try to apply a bit of control theory to the paper\
+        """
+image = "/images/hello-world.jpg"
+file_name = "/blog/hello-world.md"
