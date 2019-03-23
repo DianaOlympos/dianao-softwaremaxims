@@ -30,4 +30,4 @@ intro = """
         the field political. Let's try to apply a bit of control theory to the paper\
         """
 image = "/images/hello-world.jpg"
-file_name = "/blog/hello-world.md"
+file_name = "/blog/ethics-politics-data-science-controversies-discussion.md"
