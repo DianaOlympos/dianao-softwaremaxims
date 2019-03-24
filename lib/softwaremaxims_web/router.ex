@@ -19,7 +19,7 @@ defmodule SoftwaremaximsWeb.Router do
 
     get "/", PageController, :index
     get "/blog/:slug", BlogController, :show
-    get "/unpublished/blog/:slug", Blogcontroller, :unpublished_show
+    get "/unpublished/blog/:slug", BlogController, :unpublished_show
     get "/about", AboutController, :index
     get "/consulting", ConsultingController, :index
     get "/resume", ResumeController, :index
