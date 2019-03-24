@@ -13,7 +13,7 @@ defmodule Softwaremaxims.Blog do
     post
   end
 
-  def unpublished_get_post(slug) do
+  def get_unpublished_post(slug) do
     {_slug, post} = UnpublishedPostStorage.get_by_slug(slug)
     post
   end
