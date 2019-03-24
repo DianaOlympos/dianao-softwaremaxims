@@ -10,7 +10,8 @@ defmodule Softwaremaxims.Application do
     children = [
       # Start the endpoint when the application starts
       supervisor(SoftwaremaximsWeb.Endpoint, []),
-      Softwaremaxims.Blog.PostStorage
+      Softwaremaxims.Blog.PostStorage,
+      Softwaremaxims.Blog.UnpublishedPostStorage
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
