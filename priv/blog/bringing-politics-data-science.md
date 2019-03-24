@@ -8,6 +8,8 @@ So a few days ago, [@farbandish pointed me to an interesting paper on twitter](h
 
 The draft paper made me think a lot and i want to put my thinking out there. I like a lot of things in it, but it also generate a lot of "blips" in my "something seems funny" sense. A sense that i am sure a lot of operators of complex system knows. It took me some time to find why, but i think i got some answer after digesting it more.
 
+[As usual, you can follow the playlist coming with this blogpost here](https://open.spotify.com/user/diana_olympos/playlist/2dLDg43u0OQIMX3EZ2Re25?si=hb2ac-jNR06W2qICwttAww)
+
 ## Crocodile Tears
 
 This paper concentrate on offering a way for the field of Data Science to decide which projects are socially desirable and how to negotiate between competing perspective of society that a project can impact. I appreciate immensely that Data Science in particular, and the field of CS/IT in general, are talking more and more publicly of these kinds of problems. As engineers building essential underpinning mechanism of society, we can have massive impacts on the social system we are part of. And it is time that we acknowledge that power and work toward orienting it.
