@@ -23,11 +23,11 @@ file_name = "/blog/we-should-have-caught-it.md"
 
 [[unpublished_blog_post]]
 title = """
-        Data Science, Politics, Ethics and feedback
+        Bringing Politics in Data Science
         """
 intro = """
         Diving into a paper on making data science better for society by making \
         the field political. Let's try to apply a bit of control theory to the paper\
         """
-image = "/images/hello-world.jpg"
-file_name = "/blog/ethics-politics-data-science-controversies-discussion.md"
+image = "/images/research_ethics.png"
+file_name = "/blog/bringing-politics-data-science.md"

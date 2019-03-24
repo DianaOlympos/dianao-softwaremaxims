@@ -17,17 +17,18 @@ h1 {
 
 h2 {
   @apply .text-2xl .font-bold .mx-6 .mt-5 .mb-2 .leading-tight .self-start;
+  text-indent: 3rem;
 }
 
 p {
   @apply .text-lg .font-normal .mx-6 .my-1 .leading-normal .text-justify .self-start;
-  letter-spacing: -.003em;;
+  letter-spacing: -.003em;
+  text-indent: 3em;
 }
 
 img {
   @apply .rounded-sm;
-  object-position: center center;
-  object-fit: cover;
+  max-height: 200px;
 }
 
 a {
@@ -66,9 +67,8 @@ strong {
 
 .blog-post-image {
   @apply rounded-l;
-  width: 75vw;
-  height: 30vw;
-  max-height: 300px;
+  max-width: 69vw;
+  max-height: 350px;
 }
 
 .thin {
