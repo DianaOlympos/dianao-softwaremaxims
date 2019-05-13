@@ -21,7 +21,7 @@ intro = """
 image = "/images/gimli_glider.jpeg"
 file_name = "/blog/we-should-have-caught-it.md"
 
-[[unpublished_blog_post]]
+[[blog_post]]
 title = """
         Famous incidents reading list
         """

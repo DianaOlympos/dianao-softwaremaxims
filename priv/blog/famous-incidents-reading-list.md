@@ -17,43 +17,47 @@ If a link is broken or you find a legal free access to one that does not have a 
 * [_Engineering a Safer World_](https://mitpress.mit.edu/books/engineering-safer-world), Nancy Leveson
 * _The Systems Bible, Systemantics 3rd edition_, John Gall
 
-## Incidents
-
-### Software small incidents
+## Software small incidents
 
 I advise to follow [sreweekly by Lex Neva](https://sreweekly.com/) for a weekly newsletter of various incidents and analysis and outage.
 
-### Chernobyl
+## Chernobyl
 
 * _Producting Power_, Sonja D. Schmid
 
-### Therac-25
+## Therac-25
 
 * [_The Therac-25 Accidents_](http://sunnyday.mit.edu/papers/therac.pdf), Nancy Leveson
 
-### Air Ontario
+## Air Ontario
 
 * [_Commission of Inquiry into the Air Ontario Crash at Dryden, Ontario (Canada)_](http://epe.lac-bac.gc.ca/100/200/301/pco-bcp/commissions-ef/moshansky1992-eng/moshansky1992-eng.htm)
 
-### Ariane V maiden flight
+## Ariane V maiden flight
 
 * [_ARIANE 5 Flight 501 Failure_](http://sunnyday.mit.edu/nasa-class/Ariane5-report.html)
 
-### Gimli Glider
+## Gimli Glider
 
-### Knight Capital Incident
+No good source yet
+
+## Three Miles Island
+
+No good source yet
+
+## Knight Capital Incident
 
 * [Knightmare: A DevOps Cautionary Tale](https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/)
 
-### The Damascus Incident
+## The Damascus Incident
 
 * [Human Error in volatile situations](https://www.thisamericanlife.org/634/human-error-in-volatile-situations), audio show with transcript
 * _Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety_, Eric Schlosser
 
-### Friendly Fire in northern Iraq
+## Friendly Fire in northern Iraq
 
 * _Friendly Fire: The Accidental Shootdown of U.S. Black Hawks over Northern Iraq_, Scott A. Snook
 
-### Patriot Missile Failure in Dahran
+## Patriot Missile Failure in Dahran
 
 * [_PATRIOT MISSILE DEFENSE Software Problem Led to System Failure at Dhahran, Saudi Arabia_](https://www.gao.gov/assets/220/215614.pdf), US GAO
