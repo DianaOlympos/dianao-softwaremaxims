@@ -21,6 +21,17 @@ intro = """
 image = "/images/gimli_glider.jpeg"
 file_name = "/blog/we-should-have-caught-it.md"
 
+[[blog_post]]
+title = """
+        Famous incidents reading list
+        """
+intro = """
+        A regularly updated list of incidents i learn from and material around learning from them
+        """
+image = "/images/arianneboom.png"
+file_name = "/blog/famous-incidents-reading-list.md"
+
+
 [[unpublished_blog_post]]
 title = """
         Bringing Politics in Data Science
