@@ -1,4 +1,4 @@
-# Normal and Successful
+# Good and Successful
 
 Recently, I discovered [this blogpost](https://chrismcmahonsblog.blogspot.com/2019/05/evaluating-test-suite-toad-thought.html). It generated a bit of discussion on Twitter, which [you can find here](https://twitter.com/chris_mcmahon/status/1131287381573660674). One of this response was around how we can define "good", especially for that topic of testing. As the blog talk of an imaginary perfect test suite, it seems to matched with some of the learning I was doing on Blameless Postmortem. So, I decided to write it down and make it public. If you have any comments, I would love to read and discuss them.
 
