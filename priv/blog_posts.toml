@@ -32,6 +32,18 @@ image = "/images/arianneboom.png"
 file_name = "/blog/famous-incidents-reading-list.md"
 
 
+[[blog_post]]
+title = """
+        Good and Successful
+        """
+intro = """
+        How can we define a "good" outcome? and a "successful" one ? \
+        Some musing from Resiliency Engineering.
+        """
+image = "/images/arianneboom.png"
+file_name = "/blog/good-and-successful.md"
+
+
 [[unpublished_blog_post]]
 title = """
         Bringing Politics in Data Science
