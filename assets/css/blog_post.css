@@ -17,7 +17,6 @@ h1 {
 
 h2 {
   @apply .text-2xl .font-bold .mx-6 .mt-5 .mb-2 .leading-tight .self-start;
-  text-indent: 3rem;
 }
 
 p {
