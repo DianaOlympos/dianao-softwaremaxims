@@ -23,7 +23,6 @@ h2 {
 p {
   @apply .text-lg .font-normal .mx-6 .my-1 .leading-normal .text-justify .self-start;
   letter-spacing: -.003em;
-  text-indent: 3em;
 }
 
 img {
