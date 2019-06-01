@@ -43,6 +43,17 @@ intro = """
 image = "/images/arianneboom.png"
 file_name = "/blog/good-and-successful.md"
 
+[[blog_post]]
+title = """
+        From Nihilism to Riding Chaos
+        """
+intro = """
+        Where i look at my experience trying to help people learning Resiliency Engineering. \
+        A classification of steps along the journey.
+        """
+image = "/images/arianneboom.png"
+file_name = "/blog/from-nihilism-to-riding-chaos.md"
+
 
 [[unpublished_blog_post]]
 title = """
