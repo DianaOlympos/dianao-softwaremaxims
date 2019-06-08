@@ -1,8 +1,25 @@
 # Eve online organisations through stories
 
+elevator pitch : Examples of how Eve Online communities generate resiliency and knowledge sharing in a harsh environment through Stories.
+
+abstract: 
+
+Competitive online gaming communities live in a complex socio-technical system. They must overcome the same difficulties we encounter in building resilient software organizations. Hiring, people churn, knowledge sharing, learning from mistakes, remote communication, high-cadence and high-pressure environment. These problems are part of what define them, and they cannot escape them. They are embedded in their goals and environment. 
+
+These problems get even bigger in Eve Online organizations, facing a particularly harsh and demanding game. And still, these organizations rise to thousands of members. They are well organized and survive for years. In part, due to their ability to incorporate lessons learned and share knowledge. 
+
+I will first describe the detailed problems Eve Online organizations are facing. I will then present some of the cultural artifacts they use to convey learning. A particular emphasis will be put on named stories. The audience will be able to determine what they can learn from the stories and how their own organizations can incorporate these methods.
+
+Learning objective:
+- What challenges competitive gaming communities face.
+- How competitive gaming communities experience compare to software systems.
+- How cultural artifacts are efficient knowledge sharing tools.
+- Discover some of the tools how Eve Online organizations handle knowledge management.
+- Reflect upon the way your organizations compare to Eve Online organizations.
+
 Warning: this talk will have some strong words. 
 
-I am a gamer. Not a particularly skilled gamer that said. Any time of real time strategy game, i will be bad at it. But i am a gamer and i think being part of the gaming community, involved as i am, taught me a lot about building resilient organisations. 
+I am a gamer. Not a particularly skilled gamer that said. Any type of real time strategy game, i will be bad at it. But i am a gamer and i think being part of the gaming community, involved as i am, taught me a lot about building resilient organisations. 
 
 Online competitive games and the community of players around them are amazing to learn more about resilient team and resilient organisations. Games naturally create a sociotechnical system akin to the one we are part of everyday in IT. They have complex rules, that you only see as a model you build of them. They are social. Most involve being part of a team and collaborating, sometimes on the spot. They also involve generally an organisation far bigger than that. Clans, guilds, but also bigger communities. They naturally reproduce the type of high pressure-high cadence environment we study in incidents. On top of that, they reproduce this environment all the time. Gamers are forged in the fire of incidents everyday.
 
@@ -36,7 +53,7 @@ So Dumbs ways to die. Does anyone remember the game ? or the spots ? It was in 2
 The lyrics are short, but every single line is a lesson to learn or a link to a story to listen to. Stories that build the folklore of most eve online players. Let me show some of them.
 
 "Make fun of the Mittani's hair"
-The Mittani is the leader and head of one of the biggest and oldest corporation, alliance and coalition in Eve Online. He lead GoonSwarm. He is despised by nearly everyone. He is at that job for nearly 10 years. He is probably the most powerful player in eve online. I do not like him, nor his philosophy around the game. He is a controversial figure in the community. He is well known to lie his ass off and to "spin" anything, even the worst defeat, into a victory. To the point that this meme is how he is seen by most of the community http://spinmaster.space/ . Making fun of his hair, which are indeed funny, can be an easy way to get problems in the wrong crows indeed. There have been wars for less. This little bees ? They are the goonswarm logo.
+The Mittani is the leader and head of one of the biggest and oldest corporation, alliance and coalition in Eve Online. He lead GoonSwarm. He is despised by nearly everyone. He is at that job for nearly 10 years. He is probably the most powerful player in eve online. I do not like him, nor his philosophy around the game. He is a controversial figure in the community. He is well known to lie his ass off and to "spin" anything, even the worst defeat, into a victory. To the point that this meme is how he is seen by most of the community http://spinmaster.space/ . Making fun of his hair, which are indeed funny, can be an easy way to get problems in the wrong crowds indeed. There have been wars for less. This little bees ? They are the goonswarm logo.
 
 "Bring AWOXers into corp"
 This one lost a bit of its edge, because the game added a little design change since then. But it is still relevant. AWOX-ing is the act of being hired into an organisation, then turning coats during a fight and just firing at allies. It is not considered a real spy, double agent or traitor, because it is rarely controlled by an enemy entity. It is mostly just people that get their fun at seeing the world burn (insert heith leadger joker image). Bringing them in your corporation can indeed be problematic.
@@ -49,7 +66,14 @@ So CCP, the developers of eve online, introduced Time Dilatation. If the server 
 
 "Jump your Leviathan into Asakai"
 Ah one of these big stories. The battle of Asakai. 
-[...] expand on the battle of Asakai here
+Titans are the apex predators of EVE Online. They do obscene amounts of damage, carry devastating “doomsday” weapons capable of vaporizing enemies in a single blast, and they can use their massive jump drives to catapult entire fleets light years across space.
+
+But they also have a notoriously complex user interface. The button to “bridge” or teleport a friendly fleet across the vastness of space, often directly into combat, is right next to the “jump” button. If you click the jump button, instead of your fleet being transported across the cosmos, your own ship is hurtled into the abyss, instantly showing up at the intended destination.
+
+It was because of this quirk of the UI that CFC pilot DaBigRedBoat found himself alone surrounded by the hostile HoneyBadger-affiliated Pandemic Legion forces. Pandemic engaged the lone titan immediately, forcing DaBigRedBoat to call for aid. Titans, even when alone are a tough nut to crack though, so the Pandemic Legion fleet called in their own reinforcements, too.
+
+By the end of the battle, the HoneyBadgers had killed nearly 90 CFC-owned capital vessels, including three additional titans, a terrible defeat for the CFC -- all as the result of a simple misclick.
+
 
 "Be too confident you can take a region"
 In eve online, organisations can take control of some zone of space. As a player, you can plant your flag there and then evolve them in multiple ways to get bonus, produce new ships, etc. This usually mean that to get some area of space, you will have to deal with the existing owner. You can rent space. You can make a deal to get it. You can buy space. Or you can just decide that you know... you are going to war.
