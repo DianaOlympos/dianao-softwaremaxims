@@ -42,8 +42,7 @@ defmodule Softwaremaxims.Mixfile do
       {:plug, "~> 1.7"},
       {:jason, "~> 1.1"},
       {:earmark, "~> 1.2"},
-      {:toml, "~> 0.6.0"},
-      {:distillery, "~> 2.0"}
+      {:toml, "~> 0.6.0"}
     ]
   end
 end
