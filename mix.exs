@@ -5,10 +5,12 @@ defmodule Softwaremaxims.Mixfile do
     [
       app: :softwaremaxims,
       version: "0.0.1",
-      elixir: "~> 1.4",
+      elixir: "~> 1.9",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
+      build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
+      # releases: releases(),
       deps: deps()
     ]
   end
@@ -40,7 +42,7 @@ defmodule Softwaremaxims.Mixfile do
       {:plug, "~> 1.7"},
       {:jason, "~> 1.1"},
       {:earmark, "~> 1.2"},
-      {:toml, "~> 0.5.0"},
+      {:toml, "~> 0.6.0"},
       {:distillery, "~> 2.0"}
     ]
   end

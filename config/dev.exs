@@ -1,4 +1,4 @@
-use Mix.Config
+import Config
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
@@ -7,19 +7,19 @@ use Mix.Config
 # watchers to your application. For example, we use it
 # with brunch.io to recompile .js and .css sources.
 config :softwaremaxims, SoftwaremaximsWeb.Endpoint,
-http: [port: 4002],
-debug_errors: true,
-code_reloader: true,
-check_origin: false,
-watchers: [
-  node: [
-    "node_modules/webpack/bin/webpack.js",
-    "--mode",
-    "development",
-    "--watch-stdin",
-    cd: Path.expand("../assets", __DIR__)
+  http: [port: 4002],
+  debug_errors: true,
+  code_reloader: true,
+  check_origin: false,
+  watchers: [
+    node: [
+      "node_modules/webpack/bin/webpack.js",
+      "--mode",
+      "development",
+      "--watch-stdin",
+      cd: Path.expand("../assets", __DIR__)
+    ]
   ]
-]
 
 # ## SSL Support
 #

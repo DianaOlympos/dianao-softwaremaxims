@@ -11,6 +11,8 @@ in
 mkShell {
   buildInputs = [
     elixir
+    yarn
+    nodejs-slim-12_x
   ]
     ++ optionals stdenv.isDarwin (with darwin.apple_sdk.frameworks; [
       # For file_system on macO.S
