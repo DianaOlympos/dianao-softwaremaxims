@@ -2,7 +2,7 @@
   "repository": {},
   "license": "MIT",
   "scripts": {
-    "deploy": "webpack --mode production --output-pathinfo",
+    "deploy": "webpack --mode production --output-pathinfo true",
     "watch": "webpack --mode development --watch"
   },
   "dependencies": {
