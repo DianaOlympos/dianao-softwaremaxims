@@ -9,7 +9,7 @@
     Resume </a>. Here are some of the things i can help you with.
   </p>
 
-  <h2> Participate in your Elixir team </h2>
+  <h2 class="header-section-title"> Participate in your Elixir team </h2>
   <p>
     I can bring 4 years of Elixir knowledge (2 years in production) to your team.
     As an admin of the Elixir Slack and a figure of the London Elixir community,
@@ -17,7 +17,7 @@
     your project to expand your code base.
   </p>
 
-  <h2> Help your Elixir codebase </h2>
+  <h2 class="header-section-title"> Help your Elixir codebase </h2>
   <p>
     I can evaluate your code base quality. At the end of this process, you will
     have a clear blueprint for your team to keep working on a nicer code base
@@ -25,7 +25,7 @@
     they contribute high quality code.
   </p>
 
-  <h2> Help your Team move to Elixir </h2>
+  <h2 class="header-section-title"> Help your Team move to Elixir </h2>
   <p>
     You have a project that would profit from Elixir strengths but your team is not
     100% confident in their abilities in the language ? My experience organising
@@ -36,7 +36,7 @@
   </p>
 
 
-  <h2> Speed up your team with DevOps process </h2>
+  <h2 class="header-section-title"> Speed up your team with DevOps process </h2>
   <p>
     Delivery performance, from commit to production, have been shown to be 
     <a href="https://itrevolution.com/book/accelerate/">the best marker of an 

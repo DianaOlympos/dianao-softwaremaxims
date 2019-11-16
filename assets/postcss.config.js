@@ -4,7 +4,7 @@ module.exports = {
     require('postcss-preset-env'),
     require('cssnano'),
     require('postcss-import'),
-    require('tailwindcss')('./tailwind.js'),
+    require('tailwindcss'),
     require('autoprefixer'),
   ]
 }

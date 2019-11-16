@@ -1,6 +1,6 @@
 @import "./app.css";
 
-@tailwind preflight;
+@tailwind base;
 
 @tailwind components;
 @tailwind utilities;
@@ -30,7 +30,7 @@ img {
 }
 
 a {
-  @apply .text-light-colour .no-underline .text-dark-accent;
+  @apply .text-light-colour .text-dark-accent;
 }
 
 a:hover {

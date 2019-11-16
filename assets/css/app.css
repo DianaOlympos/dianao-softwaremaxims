@@ -1,6 +1,6 @@
 /* This file is for your main application css. */
 
-@tailwind preflight;
+@tailwind base;
 
 @tailwind components;
 @tailwind utilities;
@@ -10,15 +10,19 @@
 }
 
 .header-title-link {
-  @apply .text-dark-colour .text-3xl .font-bold .no-underline
+  @apply .text-dark-colour .text-3xl .font-bold
 }
 
 .header-title-link:hover {
   @apply .text-dark-accent
 }
 
+.header-section-title {
+  @apply .text-2xl .font-bold .mx-6 .mt-5 .mb-2 .leading-tight .self-start
+}
+
 .navbar {
-  @apply .list-reset .m-0 .flex .items-center .justify-center .flex-wrap .border-b-2 .border-light-accent
+  @apply .m-0 .flex .items-center .justify-center .flex-wrap .border-b-2 .border-light-accent
 }
 
 .navbar-container {
@@ -61,7 +65,7 @@
 }
 
 .primary-link {
-  @apply .text-light-colour .no-underline;
+  @apply .text-light-colour;
 }
 
 .primary-link:hover {
@@ -89,11 +93,11 @@
 }
 
 .footer-element {
-  @apply .list-reset .mx-3;
+  @apply .mx-3;
 }
 
 .footer-link {
-  @apply .text-light-accent .no-underline;
+  @apply .text-light-accent;
 }
 
 .footer-link:hover {
