@@ -63,7 +63,7 @@ intro = """
         the conference and the talks i went to see.
         """
 image = "/images/field-notes.jpg"
-file_name = "/blog/codemesh-2019"
+file_name = "/blog/codemesh-2019.md"
 
 [[unpublished_blog_post]]
 title = """
