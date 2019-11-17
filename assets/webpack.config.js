@@ -46,7 +46,9 @@ module.exports = (env, options) => ({
               url: false
             }
           },
-          'postcss-loader'
+          {
+            loader: 'postcss-loader'
+          }
         ]
       },
       {

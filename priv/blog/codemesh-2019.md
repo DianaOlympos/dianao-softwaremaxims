@@ -8,43 +8,43 @@ This time around, my main feeling is disappointment. I feel like i am not really
 
 ## The talks i went to
 
-**Literary Theory looks at Readable Code by [Alvaro Videla](https://twitter.com/old_sound)**
+### Literary Theory looks at Readable Code by [Alvaro Videla](https://twitter.com/old_sound)
 
 Alvaro always deliver good talks and insight into linking Literary theory to code writing. The talk was great and there are a lot of things in there that i can link to the work i see in cognitive science and Resilience Engineering in general. Especially around the problematic linked to collaborative work and Joint Cognitive Systems.
 
-**What is a computer program ? Historical and philosophical reflections by Liesbeth De Mol**
+### What is a computer program ? Historical and philosophical reflections by Liesbeth De Mol
 
 This was a great talk looking at the historicity of the definition of "computing" and of "software". She advocates an a-disciplinary and quite "anarchic" view of the definition of the field, which i happily can get behind. It reminded me a lot of the kind of problems i keep seeing with people trying to define "engineering" as a discipline. It exists and you know it when you see it. Finding a good, stable definition of it and of "engineering methods" seems far more elusive and not really researched.
 
-**Capability Driven Requirements Engineering by [Natalia Chechina](https://twitter.com/nchechina)**
+### Capability Driven Requirements Engineering by [Natalia Chechina](https://twitter.com/nchechina)
 
 I have a lot of respect for Natalia, so i went expecting to get new ideas for generating requirements. I left after 10 minutes, not really knowing what the talk was about at all. I can only encourage people interested to go watch the recording once it is released and make their own idea about it.
 
-**want don't You consistency no stinking by [Greg Young](https://twitter.com/gregyoung)**
+### want don't You consistency no stinking by [Greg Young](https://twitter.com/gregyoung)
 
 This was a really practical talk by Greg Young. It could have been done in 15 minutes and be as useful. I think there were some really interesting lessons in there, but CodeMesh is populated by people that should expect or a bit more substance or know about these kinds of techniques already. It is not a bad talk, but it felt really out of place and stretched to fit the whole session.
 
-**Let's get more women into computer science by Mary Sheeran**
+### Let's get more women into computer science by Mary Sheeran
 
 This was a great talk from Mary. The kind of talks i want to see more of. Mary took us on the journey she took at Chalmers when she decided it was time to increase gender equality. From how she got a budget to the lessons learned along the way, it was a deeply useful talk. I would like to see more talk like hers, that concentrate on the journey and the steps taken, more than on a summary of the results. It is far more practical for people like me that are trying to act. I would advise everyone to watch it. It may seems really empty at first glance, but the journey matter more than the outcome in that case.
 
-**AI for social responsibility: embedding principled guidelines into AI systems by Veronica Dahl**
+### AI for social responsibility: embedding principled guidelines into AI systems by Veronica Dahl
 
 This was a good feminist look at how programming and AI systems could and should get better at promoting a more just society. I do not agree with her reading of history, but i am pretty sure we would agree on the steps to take for the present and future and the methods to use. And the goal to achieve. I am happy to see that people coming with different background and reading of society achieve the same kind of models of the future than i hope for.
 
-**Bourdieu's social theory applied to tech by [Romeu Moura](https://twitter.com/malk_zameth)**
+### Bourdieu's social theory applied to tech by [Romeu Moura](https://twitter.com/malk_zameth)
 
 I had already seen a recording of that talk given by Romeu at the conference he helps organize. It had made me begin a reread of Bourdieu with my more adult view. I advise all of you to give it a watch. It is a good approachable vulgarization of Bourdieu, which is i think fairly relevant to use as software people.
 
-**In defence of uncertainty by [Abeba Birhane](https://twitter.com/Abebab)**
+### In defence of uncertainty by [Abeba Birhane](https://twitter.com/Abebab)
 
 A good talk. It felt to me as a 2 parts things, first with the defence of uncertainty, then a display of case in which the course for a model generated fairly egregious discrimination. I was the only one in the room knowing of all these cases, which is not surprising with how many of them they are. The number of people not knowing about these cases are probably an explanation of my feeling of disconnection, which i will talk later. We need more talk like this one, and i advise everyone to go watch it, at the very least to learn about these case.
 
-**Misadventures With Terraform by [Matthew Revell](https://twitter.com/nightowlmatt)**
+### Misadventures With Terraform by [Matthew Revell](https://twitter.com/nightowlmatt)
 
 This was a good entry talk on the lessons learned using Terraform. Probably useful, kind of, to developers that are not used to doing their own ops. Was a bit light on glossary, which i think lost some of the people in the room. I am happy to see more ops/devops stuff at CodeMesh.
 
-**Your Brain on Software Development by [Fahran Wallace](https://twitter.com/FahranWallace)**
+### Your Brain on Software Development by [Fahran Wallace](https://twitter.com/FahranWallace)
 
 This was a fun talk. Fahran ended up mostly listing a few cognitive biases and how they relate to software. She also offered some practices and tools we can use to try to reduce the risks of failing into the bad side of these biases. I am happy that we see more cognitive science in conferences. I am not happy that we use the Heuristics & Bias textbooks as the basis for it, but it is better to begin somewhere and extend with other views later.
 
