@@ -54,6 +54,16 @@ intro = """
 image = "/images/arianneboom.png"
 file_name = "/blog/from-nihilism-to-riding-chaos.md"
 
+[[blog_post]]
+title = """
+        Field Notes from CodeMesh 2019
+        """
+intro = """
+        I went to CodeMesh LDN 2019 the 7-8th of November. Here are my thoughts and notes on \
+        the conference and the talks i went to see.
+        """
+image = "/images/field-notes.jpg"
+file_name = "/blog/codemesh-2019"
 
 [[unpublished_blog_post]]
 title = """
