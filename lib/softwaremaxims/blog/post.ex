@@ -3,14 +3,16 @@ defmodule Softwaremaxims.Blog.Post do
             body: "",
             slug: "",
             image: "",
-            intro: ""
+            intro: "",
+            order: 1
 
   @type t :: %Softwaremaxims.Blog.Post{
           title: String.t(),
           body: String.t(),
           slug: String.t(),
           image: String.t(),
-          intro: String.t()
+          intro: String.t(),
+          order: integer()
         }
 
   def new(slug, post_meta, post_html) do
@@ -19,7 +21,8 @@ defmodule Softwaremaxims.Blog.Post do
       body: post_html,
       slug: slug,
       image: post_meta[:image],
-      intro: post_meta[:intro]
+      intro: post_meta[:intro],
+      order: post_meta[:order]
     }
   end
 

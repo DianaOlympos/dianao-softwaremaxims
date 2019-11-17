@@ -9,6 +9,7 @@ intro = """
         """
 image = "/images/hello-world.jpg"
 file_name = "/blog/hello-world.md"
+order = 1
 
 [[blog_post]]
 title = """
@@ -20,6 +21,7 @@ intro = """
         """
 image = "/images/gimli_glider.jpeg"
 file_name = "/blog/we-should-have-caught-it.md"
+order = 2
 
 [[blog_post]]
 title = """
@@ -30,7 +32,7 @@ intro = """
         """
 image = "/images/arianneboom.png"
 file_name = "/blog/famous-incidents-reading-list.md"
-
+order = 3
 
 [[blog_post]]
 title = """
@@ -42,6 +44,7 @@ intro = """
         """
 image = "/images/arianneboom.png"
 file_name = "/blog/good-and-successful.md"
+order = 4
 
 [[blog_post]]
 title = """
@@ -53,6 +56,7 @@ intro = """
         """
 image = "/images/arianneboom.png"
 file_name = "/blog/from-nihilism-to-riding-chaos.md"
+order = 5
 
 [[blog_post]]
 title = """
@@ -64,6 +68,7 @@ intro = """
         """
 image = "/images/field-notes.jpg"
 file_name = "/blog/codemesh-2019.md"
+order = 6
 
 [[unpublished_blog_post]]
 title = """
@@ -75,3 +80,4 @@ intro = """
         """
 image = "/images/research_ethics.png"
 file_name = "/blog/bringing-politics-data-science.md"
+order = 1
