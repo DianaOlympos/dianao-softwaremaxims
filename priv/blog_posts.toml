@@ -70,6 +70,19 @@ image = "/images/field-notes.jpg"
 file_name = "/blog/codemesh-2019.md"
 order = 6
 
+[[blog_post]]
+title = """
+        Notes about books read in 2019
+        """
+intro = """
+        Here are some notes on books I read in 2019. They’re not book reviews, more notes on \
+        whatever I found interesting or problematic in them. I can recommend reading all of them; \
+        the books I didn’t get much out of I won’t list here.
+        """
+image = "/images/field-notes.jpg"
+file_name = "/blog/books-read-2019.md"
+order = 7
+
 [[unpublished_blog_post]]
 title = """
         Bringing Politics in Data Science
