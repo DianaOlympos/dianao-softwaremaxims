@@ -9,10 +9,10 @@
 
     <link rel="icon" href="/favicon.ico" />
     <title>Software Maxims</title>
-    <link rel="stylesheet" 
+    <link rel="stylesheet"
       href="<%= Routes.static_path(@conn, "/css/app.css") %>" />
     <%= if Map.get(@conn.assigns, :add_blog_style, false) do %>
-      <link rel="stylesheet" 
+      <link rel="stylesheet"
         href="<%= Routes.static_path(@conn, "/css/blog_post.css") %>" />
     <% end %>
   </head>
@@ -22,26 +22,20 @@
       <header class="header">
         <nav class="container">
           <div class="header-title">
-            <a class="header-title-link" 
+            <a class="header-title-link"
               href="<%= Routes.page_path(@conn, :index) %>">
               Software Maxims
             </a>
           </div>
           <ul class="navbar">
             <li class="navbar-container">
-              <a class="primary-link navbar-link" 
+              <a class="primary-link navbar-link"
                 href="<%= Routes.page_path(@conn, :index) %>">
                 Blog
               </a>
             </li>
             <li class="navbar-container">
-              <a class="primary-link navbar-link" 
-                href="<%= Routes.resume_path(@conn, :index) %>">
-                Resume
-              </a>
-            </li>
-            <li class="navbar-container">
-              <a class="primary-link navbar-link" 
+              <a class="primary-link navbar-link"
                 href="<%= Routes.consulting_path(@conn, :index) %>">
                 Consulting
               </a>

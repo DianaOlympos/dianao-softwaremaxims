@@ -1,7 +1,7 @@
 @import "./app.css";
 
 .blogpost {
-  @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .text-dark-colour .pb-3 .bg-light-colour .border-4 .border-dark-colour .rounded-lg .items-center mt-2;
+  @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .text-dark-colour .pb-3 .bg-light-colour .border-4 .border-dark-colour .rounded-lg .items-center .mt-2;
   max-width: 60rem;
 }
 

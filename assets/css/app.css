@@ -10,7 +10,7 @@
 }
 
 .header-title-link {
-  @apply .text-dark-colour .text-3xl .font-bold
+  @apply .text-dark-colour .text-4xl .font-bold
 }
 
 .header-title-link:hover {
@@ -26,15 +26,15 @@
 }
 
 .navbar-container {
-  @apply .p-4 .m-0 leading-normal .text-justify .self-start
+  @apply .p-4 .my-0 mx-3 leading-normal .text-justify .self-start text-2xl
 }
 
 .navbar-placeholder {
-  @apply .text-light-colour .text-base
+  @apply .text-light-colour
 }
 
 .navbar-link {
-  @apply text-lg font-bold
+  @apply font-bold
 }
 
 .page-title {

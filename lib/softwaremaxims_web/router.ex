@@ -22,7 +22,6 @@ defmodule SoftwaremaximsWeb.Router do
     get "/unpublished/blog/:slug", BlogController, :unpublished_show
     get "/about", AboutController, :index
     get "/consulting", ConsultingController, :index
-    get "/resume", ResumeController, :index
   end
 
   # Other scopes may use custom stacks.

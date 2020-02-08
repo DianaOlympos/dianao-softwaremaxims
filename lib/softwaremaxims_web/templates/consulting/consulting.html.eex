@@ -2,19 +2,29 @@
   What your team can get from me
 </h1>
 <div class="container blogpost pt-4">
-  <p>
-    You have great people, and you know they could be an amazing team. Delivering
-    on business need, inspired, a real competitive advantage. Not held-back by long
-    repetitive process, problems they have to solve over and over again.
+  <div class="mx-5">
+    <p class="font-medium">
+      You have great people, and you know they could be an amazing team. Delivering
+      on business need, inspired, a real competitive advantage. Not held-back by long
+      repetitive process, problems they have to solve over and over again.
+    </p>
 
-    Most of these problems are systemic. Your people are great, the way their tools
-    and process are organised hold them back. I want to give your team the tools
-    to change their process and become a great learning system made of learning parts.
+    <p class="font-medium">
+      Most of these problems are systemic. Your people are great, the way their tools
+      and process are organised hold them back. I want to give your team the tools
+      to change their process and become a great learning system made of learning parts.
+    </p>
 
-    I can bring years of experience doing it for teams, particularly on the Elixir world.
-  </p>
+    <p class="font-medium">
+      I can bring years of experience helping and building teams, particularly on the Elixir world.
+    </p>
+  </div>
 
-  <h2 class="header-section-title"> Do you need help in your DevOps journey ? </h2>
+  <hr class="w-1/2 h-1 mt-4 mb-2 text-dark-accent">
+
+  <h2 class="header-section-title">
+    Do you need help in your DevOps journey ?
+  </h2>
   <p>
     I have gone through that journey multiple times and built teams that deliver
     tremendous business value. I can inspire your team with lessons from teams
@@ -52,10 +62,13 @@
   <h2 class="header-section-title"> Your own idea ? </h2>
   <p>
     The most well placed person to know your needs are yourself. Maybe you think
-    i could bring something else to your team or have particular needs. For a
-    few hours or a few months, I'd love to learn about what you are doing, ask
+    i could bring something else to your team or have particular needs.
+  </p>
+
+  <p>
+    For a few hours or a few months, I'd love to learn about what you are doing, ask
     useful questions, dig in and help your team become a great learning system.
 
-    Let's talk (You can email me at depierre.thomas@gmail.com)
+    Let's talk. (You can email me at depierre.thomas@gmail.com)
   </p>
 </div>
