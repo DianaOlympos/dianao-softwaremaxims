@@ -22,8 +22,24 @@
 
   <hr class="w-1/2 h-1 mt-4 mb-2 text-dark-accent">
 
+  <div class="flex flex-col mx-5">
+    <blockquote class="self-center text-center w-92">
+      Bringing Thomas onboard was one of the best decisions I made as a CTO of SafeBoda. I admire Thomas' passion and dedication.
+    </blockquote>
+    <div class="flex flex-end self-end">
+      <p class="mx-1 font-semibold">
+        Kirk Agbenyegah
+      </p>
+      <p class="mx-0">
+        / CTO, SafeBoda
+      </p>
+    </div>
+  </div>
+
+  <hr class="w-1/2 h-1 mt-4 mb-2 text-dark-accent">
+
   <h2 class="header-section-title">
-    Do you need help in your DevOps journey ?
+    Help in your DevOps journey
   </h2>
   <p>
     I have gone through that journey multiple times and built teams that deliver
@@ -59,7 +75,7 @@
   </p>
 
 
-  <h2 class="header-section-title"> Your own idea ? </h2>
+  <h2 class="header-section-title"> Your specific need </h2>
   <p>
     The most well placed person to know your needs are yourself. Maybe you think
     i could bring something else to your team or have particular needs.
