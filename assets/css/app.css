@@ -6,31 +6,31 @@
 @tailwind utilities;
 
 .header-title {
-  @apply .flex .items-center .justify-center .flex-wrap p-6 .bg-main-colour
+  @apply flex items-center justify-center flex-wrap p-6 bg-main-colour
 }
 
 .header-title-link {
-  @apply .text-dark-colour .text-4xl .font-bold
+  @apply text-dark-colour text-4xl leading-normal font-bold
 }
 
 .header-title-link:hover {
-  @apply .text-dark-accent
+  @apply text-dark-accent
 }
 
 .header-section-title {
-  @apply .text-2xl .font-bold .mx-6 .mt-5 .mb-2 .leading-tight .self-start
+  @apply text-2xl font-bold mx-6 mt-5 mb-2 leading-tight self-start
 }
 
 .navbar {
-  @apply .m-0 .flex .items-center .justify-center .flex-wrap .border-b-2 .border-light-accent
+  @apply m-0 flex items-center justify-center flex-wrap border-b-2 border-light-accent
 }
 
 .navbar-container {
-  @apply .p-4 .my-0 mx-3 leading-normal .text-justify .self-start text-2xl
+  @apply p-4 my-0 mx-3 leading-normal text-justify self-start text-2xl
 }
 
 .navbar-placeholder {
-  @apply .text-light-colour
+  @apply text-light-colour
 }
 
 .navbar-link {
@@ -38,16 +38,16 @@
 }
 
 .page-title {
-  @apply .text-center .font-bold .my-3 .mx-0 .text-light-colour text-4xl .leading-normal
+  @apply text-center font-bold my-3 mx-0 text-light-colour text-4xl leading-normal
 }
 
 .blog-card {
-  @apply .flex .bg-light-colour .p-4 .rounded-lg .m-2 .mt-8 .flex-wrap-reverse .justify-center .items-center;
+  @apply flex bg-light-colour p-4 rounded-lg m-2 mt-8 flex-wrap-reverse justify-center items-center;
   width: auto;
 }
 
 .blog-card-image {
-  @apply .m-2 .rounded-sm;
+  @apply m-2 rounded-sm;
   min-width: 50px;
   max-width: 250px;
   min-height: 50px;
@@ -65,45 +65,45 @@
 }
 
 .primary-link {
-  @apply .text-light-colour;
+  @apply text-light-colour;
 }
 
 .primary-link:hover {
-  @apply .text-light-accent;
+  @apply text-light-accent;
 }
 
 .post-title-list {
-  @apply .text-center .text-3xl .font-semibold text-dark-colour;
+  @apply text-center text-3xl font-semibold text-dark-colour leading-normal;
 }
 
 .post-title-list:hover {
-  @apply .underline;
+  @apply underline;
 }
 
 .main-footer {
-  @apply .bg-dark-colour .text-light-colour .mx-auto .self-center .flex .flex-col .my-3;
+  @apply bg-dark-colour text-light-colour mx-auto self-center flex flex-col my-3;
 }
 
 .footer-text {
-  @apply .mx-auto .self-center .text-center;
+  @apply mx-auto self-center text-center;
 }
 
 .footer-list {
-  @apply .flex .justify-center .self-center .my-1;
+  @apply flex justify-center self-center my-1;
 }
 
 .footer-element {
-  @apply .mx-3;
+  @apply mx-3;
 }
 
 .footer-link {
-  @apply .text-light-accent;
+  @apply text-light-accent;
 }
 
 .footer-link:hover {
-  @apply .text-dark-accent;
+  @apply text-dark-accent;
 }
 
 .about-p {
-  @apply .mt-3
+  @apply mt-3
 }

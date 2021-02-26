@@ -1,21 +1,16 @@
 /* eslint-disable eol-last */
 const path = require('path');
 const glob = require('glob');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const devMode = process.env.NODE_ENV !== 'production'
 
 module.exports = (env, options) => ({
   optimization: {
+    minimize: !devMode,
     minimizer: [
-      new UglifyJsPlugin({
-        cache: true,
-        parallel: true,
-        sourceMap: false
-      }),
-      new OptimizeCSSAssetsPlugin({})
+      new CssMinimizerPlugin(),
     ]
   },
   entry: {
@@ -23,7 +18,6 @@ module.exports = (env, options) => ({
     'blog_post': './js/blog_post.js'
   },
   output: {
-    filename: '[name].js',
     path: path.resolve(__dirname, '../priv/static/js')
   },
   module: {
@@ -38,17 +32,21 @@ module.exports = (env, options) => ({
         test: /\.css$/,
         exclude: /node_modules/,
         use: ['style-loader',
-          MiniCssExtractPlugin.loader,
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              esModule: false
+            }
+          },
           {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              url: false
+              url: false,
+              esModule: false
             }
           },
-          {
-            loader: 'postcss-loader'
-          }
+          'postcss-loader'
         ]
       },
       {
@@ -60,10 +58,12 @@ module.exports = (env, options) => ({
     ]
   },
   plugins: [
-    new CopyWebpackPlugin([{
-      from: 'static/',
-      to: '../'
-    }]),
+    new CopyWebpackPlugin({
+      patterns: [{
+        from: 'static/',
+        to: '../'
+      }]
+    }),
     new MiniCssExtractPlugin({
       filename: '../css/[name].css'
     })

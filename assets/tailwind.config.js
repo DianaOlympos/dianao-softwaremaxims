@@ -21,6 +21,12 @@ View the full documentation at https://tailwindcss.com.
 */
 
 module.exports = {
+  purge: [
+    '../lib/**/*.ex',
+    '../lib/**/*.leex',
+    '../lib/**/*.eex',
+    './js/**/*.js'
+  ],
 
   theme: {
     /*
@@ -206,6 +212,7 @@ module.exports = {
     visibility: ['responsive'],
     whitespace: ['responsive'],
     wordBreak: ['responsive'],
+    textOverflow: ['responsive'],
     width: ['responsive'],
     zIndex: ['responsive'],
   },

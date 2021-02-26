@@ -1,66 +1,66 @@
 @import "./app.css";
 
 .blogpost {
-  @apply .flex .flex-col .flex-no-wrap .justify-center .mx-auto .text-dark-colour .pb-3 .bg-light-colour .border-4 .border-dark-colour .rounded-lg .items-center .mt-2;
+  @apply flex flex-col flex-nowrap justify-center mx-auto text-dark-colour pb-3 bg-light-colour border-4 border-dark-colour rounded-lg items-center mt-2;
   max-width: 60rem;
 }
 
 h1 {
-  @apply .text-5xl .font-bold .m-4 .leading-tight;
+  @apply text-5xl font-bold m-4 leading-tight;
 }
 
 h2 {
-  @apply .text-2xl .font-bold .mx-6 .mt-5 .mb-2 .leading-tight .self-start;
+  @apply text-2xl font-bold mx-6 mt-5 mb-2 leading-tight self-start;
 }
 
 h3 {
-  @apply .text-xl .font-bold .mx-6 .mt-5 .mb-2 .leading-tight .self-start;
+  @apply text-xl font-bold mx-6 mt-5 mb-2 leading-tight self-start;
 }
 
 p {
-  @apply .text-lg .font-normal .mx-6 .my-1 .leading-normal .text-justify .self-start;
+  @apply text-lg font-normal mx-6 my-1 leading-normal text-justify self-start;
   letter-spacing: -.003em;
 }
 
 img {
-  @apply .rounded-sm;
+  @apply rounded-sm;
   max-height: 200px;
 }
 
 a {
-  @apply .text-light-colour .text-dark-accent;
+  @apply text-dark-accent;
 }
 
 a:hover {
-  @apply .text-light-accent .underline;
+  @apply text-light-accent underline;
 }
 
 blockquote {
-  @apply .text-lg .italic;
+  @apply text-lg italic leading-normal;
   margin-right: 3rem;
   margin-left: 3rem;
 }
 
 ul {
-  @apply .my-4 .ml-10 .mr-16 .self-start;
+  @apply my-4 ml-10 mr-16 self-start;
 }
 
 ol {
   list-style-type: decimal;
   padding-left: theme('padding.4');
-  @apply .my-4 .ml-10 .mr-16 .self-start;
+  @apply my-4 ml-10 mr-16 self-start;
 }
 
 li {
-  @apply .mt-1 .text-lg .font-normal .leading-normal .text-justify .self-start;
+  @apply mt-1 text-lg font-normal leading-normal text-justify self-start;
 }
 
 pre {
-  @apply .flex .mx-16 .my-2 .self-stretch items-start;
+  @apply flex mx-16 my-2 self-stretch items-start;
 }
 
 strong {
-  @apply .font-semibold;
+  @apply font-semibold;
 }
 
 .blog-post-image {
@@ -70,5 +70,5 @@ strong {
 }
 
 .thin {
-  @apply .border-b-2 .border-main-colour .border-solid .mx-6 .w-16;
+  @apply border-b-2 border-main-colour border-solid mx-6 w-16;
 }
