@@ -9,7 +9,8 @@ defmodule Softwaremaxims.Application do
     # Define workers and child supervisors to be supervised
     children = [
       # Start the endpoint when the application starts
-      supervisor(SoftwaremaximsWeb.Endpoint, []),
+      {Phoenix.PubSub, name: Softwaremaxims.PubSub},
+      SoftwaremaximsWeb.Endpoint,
       Softwaremaxims.Blog.PostStorage,
       Softwaremaxims.Blog.UnpublishedPostStorage
     ]

@@ -10,7 +10,7 @@ config :softwaremaxims, SoftwaremaximsWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "LB7VGeGLWxjZCsrzZz/9lp1qTw2Gh4uUksNAWjdBRApILdWaSD8Hdzxn12/POqCv",
   render_errors: [view: SoftwaremaximsWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: Softwaremaxims.PubSub, adapter: Phoenix.PubSub.PG2]
+  pubsub_server: Softwaremaxims.PubSub
 
 config :phoenix, :json_library, Jason
 config :phoenix, :format_encoders, json: Jason
